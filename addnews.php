@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta http-equiv="Refresh" content="5">
+   
     <title>Главная</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
@@ -30,20 +30,24 @@
 </ul>     
     </div>
     <hr>
-    <div class="main">
+
+    
         <div class="auth">
-      <form action="vendor/news.php" method="$_POST">
+      <form action="vendor/post_add.php" method="post">
           <label>Введіть Заголовок</label>
           <input type="text" name="title">
           <label>Введіть текст</label>
-          <input type="text" name="text"size="25" class="article_text">
+          <input type="text" name="text"  class="article_text">
           <label>Прикріпіть зображення</label>
           <input type="file" name="article_image">
           <button type="submit">Добавити</button>
-      </form> 
-      </div>
-    </div>
+      
+        </form> 
+        </div>
+ 
+    
 
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
     </script>
