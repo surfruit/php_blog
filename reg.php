@@ -44,7 +44,7 @@
             <label>Введіть пароль ще раз</label>
             <input type="password" name="password_confirm" placeholder="Підтвердіть пароль">
             <?php
-             if ($_SESSION['message']){
+             if (isset($_SESSION['message'])){
                     echo '<p class="msg">' . $_SESSION['message'] . ' </p>';
                 }
              unset($_SESSION['message']); 

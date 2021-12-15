@@ -20,6 +20,6 @@
 
     } else {
         $_SESSION['message'] = 'Неправильний логін/пароль';
-            header('Location: ../index.php');
+            header('Location: ../login.php');
     }
 ?>

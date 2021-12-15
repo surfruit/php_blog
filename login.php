@@ -38,7 +38,7 @@
                 У вас немає аккаунту? - <a href="reg.php">зареєструйтесь!</a>
             </p>
             <?php
-             if ($_SESSION['message']){
+             if (isset($_SESSION['message'])){
                     echo '<p class="msg">' . $_SESSION['message'] . ' </p>';
                 }
              unset($_SESSION['message']); 

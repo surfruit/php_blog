@@ -46,19 +46,3 @@ a{
     text-align: center;
     font-weight: bold;
 }
-.content{
-    /* center position */
-    
-    position: fixed;
-    display: flex;
-    align-items: center;
-    align-content: center; 
-    justify-content: center; 
-    overflow: auto;
-}
-.news{
-    display: block;
-    margin-top: 10%;
-    margin-bottom: 10px;
-    text-align: center;
-}
