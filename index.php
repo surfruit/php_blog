@@ -44,9 +44,12 @@
                     <a href="#" class="btn btn-primary">Go somewhere</a>
                 </div>
             </div>
-            
         </div>
         
+        <div class="footer">
+            <h4>2021</h4>
+            <p><a href="github/surfruit"><img src="" alt="">Follow on GitHub</a></p>
+        </div>
     
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"

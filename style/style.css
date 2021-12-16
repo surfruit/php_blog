@@ -46,3 +46,12 @@ a{
     text-align: center;
     font-weight: bold;
 }
+
+.footer{
+    margin-left: 25px;
+    text-align: center;
+    background: chocolate;
+}
+.footer h4{
+    text-align: center;
+}
